@@ -67,9 +67,9 @@ project.afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.horizontalsystems'
+                groupId = 'com.github.Quantum-Chain-PTE-LTD'
                 artifactId = 'market-kit-android'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }
